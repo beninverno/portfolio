@@ -1,0 +1,209 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    background: #f8f8f7;
+    margin: 0 auto;
+    z-index: 0;
+    line-height: 2vw;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+}
+
+#nav {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    padding-top: 4%;
+}
+
+#content {
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 5%;
+    text-align: justify;    
+}
+
+h2 {
+    color: #465061;
+    font-size: 2vw;
+    width: max-content;      
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 0 0 0;
+    padding-bottom: 3px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 1s;
+    transition: color 1s;
+}
+
+h3 {
+    font-size: 4vw;
+    text-align: center;
+    margin: 0 0 0 0;
+    position: sticky;
+    top: 0px;
+    background: #f8f8f7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 10;
+}
+h4 {
+    font-size: 1.75vw;
+}
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5vw;
+}
+
+span {
+    color: steelblue;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+#projectscontent {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#projectscontent p {
+    display: none;
+}
+
+#topleftme {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 10%;
+}
+
+.selected {
+    border-bottom: 3px solid steelblue;
+    color: black;
+}
+
+h2:hover {
+    border-bottom: 3px solid steelblue;
+    color: black;
+    cursor: pointer;    
+}
+
+h4:hover {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#techs {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    filter: grayscale;
+}
+
+#techs img {
+    max-width: 10vw;
+    height: auto;
+    transition: filter linear 0.5s;
+}
+
+.gray {
+    filter: grayscale(1);
+}
+
+#bmiimagelink {
+    color: steelblue;
+}
+
+#aboutcontent {
+    margin-bottom: 30px;
+}
+
+#projectwriting {
+    width: 95%;
+}
+
+#food {
+    float: right;
+    max-width: 100%;
+    width: 20vw;
+    height: auto;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15%;
+}
+
+#contactimgs img {
+    max-width: 10vw;
+    height: auto;
+}
+
+#contactimgs img:hover {
+    cursor: pointer;
+}
+
+#contactimgs {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#bencoop {
+    float: left;
+    max-width: 100%;
+    width: 20vw;
+    height: auto;
+    border-radius: 15%;
+    padding: 15px 15px 15px 15px;
+}
+
+.hider {
+    display: none;
+}
+
+h5 {
+    font-size: 2vw;
+    color: steelblue;
+    text-align: center;
+}
+
+h5:hover {
+    cursor: pointer;
+}
+
+.shower {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
