@@ -38,7 +38,9 @@ h1 {
     width: 70%;
     margin-left: 20%;
     margin-right: 5%;
-    text-align: justify;    
+    text-align: justify;   
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 
 h2 {
@@ -155,7 +157,7 @@ h4:hover {
 #food {
     float: right;
     max-width: 100%;
-    width: 20vw;
+    width: 15vw;
     height: auto;
     padding: 15px 15px 15px 15px;
     border-radius: 15%;
@@ -180,7 +182,7 @@ h4:hover {
 #bencoop {
     float: left;
     max-width: 100%;
-    width: 20vw;
+    width: 15vw;
     height: auto;
     border-radius: 15%;
     padding: 15px 15px 15px 15px;
